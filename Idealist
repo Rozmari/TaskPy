@@ -1,0 +1,12 @@
+1. Store tasks as variables in a script that runs and prints the variable when called?
+    1.* - Store tasks in a list and use list as variable that is opened and printed with a function.
+2. Use \n\t to separate lists.
+3. Whitespace stripping at the end or beginning?
+    3.1. Could be used to strip timestamps...
+
+4. Task numbers need to be wrapped in str()
+5. Collaborative notebook sharing.
+    5.1 - Through IRC?
+6. if -a called, exec fileread func?
+7. REMEMBER TO CLOSE OUTPUT FILE IN FUNCTION.
+
