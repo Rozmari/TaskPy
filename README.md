@@ -1,5 +1,5 @@
 # TaskPy - A Small Alternative to TaskWarrior with Auto-Reminding
-*Forked from Nojusr.*
+*Originally forked from Nojusr, now rewritten entirely by Rosemary.*
 
 *TaskScout* seeks to provide an alternative to TaskWarrior in the form of a small, minimalist task-management and reminder system following the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy). 
 
