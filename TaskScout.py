@@ -6,8 +6,10 @@
 import argparse
 import sys
 import os
+from shutil import copyfile
 
 output = "/home/geweih/output.txt"
+savedlist = "/home/geweih/tester.txt"
 
 # This is a function that opens up the output and reads it. // Fall down wherever we meet...
 def fileread():
@@ -21,6 +23,7 @@ def fileread():
 def RememberAnna():
     ## You're going to want to save the file in a directory here.
     ## List the directory as a var for the sake of ease.
+    copyfile(output, savedlist)
     os.remove(output)
     print("Anna begins to change her mind. // List sent to the Boatman.")
     return
@@ -51,3 +54,4 @@ else:
         RememberAnna()
     else:
         fileread()
+
