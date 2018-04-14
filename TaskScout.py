@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # TaskScout 3 - Cross the water -- Home through the town, past the shadows.
+# P.S. -- Amy is the best.
 
 import argparse
 import sys
@@ -21,8 +22,6 @@ def fileread():
 
 # Clearsave function.
 def RememberAnna():
-    ## You're going to want to save the file in a directory here.
-    ## List the directory as a var for the sake of ease.
     copyfile(output, savedlist)
     os.remove(output)
     print("Anna begins to change her mind. // List sent to the Boatman.")
